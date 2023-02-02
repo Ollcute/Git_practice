@@ -48,6 +48,7 @@
             this.but_Mul.TabIndex = 19;
             this.but_Mul.Text = "*";
             this.but_Mul.UseVisualStyleBackColor = true;
+            this.but_Mul.Click += new System.EventHandler(this.but_Mul_Click);
             // 
             // but_Div
             // 
