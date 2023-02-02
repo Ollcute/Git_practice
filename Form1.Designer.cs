@@ -66,6 +66,7 @@
             this.but_Sub.TabIndex = 17;
             this.but_Sub.Text = "-";
             this.but_Sub.UseVisualStyleBackColor = true;
+            this.but_Sub.Click += new System.EventHandler(this.but_Sub_Click);
             // 
             // label3
             // 
