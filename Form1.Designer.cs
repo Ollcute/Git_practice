@@ -57,6 +57,7 @@
             this.but_Div.TabIndex = 18;
             this.but_Div.Text = "/";
             this.but_Div.UseVisualStyleBackColor = true;
+            this.but_Div.Click += new System.EventHandler(this.but_Div_Click);
             // 
             // but_Sub
             // 
