@@ -20,11 +20,19 @@ namespace Git_pract
             tB_result.Text = result.ToString();
         }
 
+<<<<<<< HEAD
         private void but_Mul_Click(object sender, EventArgs e)
         {
             number_1 = Convert.ToInt32(tB_1.Text);
             number_2 = Convert.ToInt32(tB_2.Text);
             result = number_1 * number_2;
+=======
+        private void but_Div_Click(object sender, EventArgs e)
+        {
+            number_1 = Convert.ToInt32(tB_1.Text);
+            number_2 = Convert.ToInt32(tB_2.Text);
+            result = number_1 / number_2;
+>>>>>>> session2
             tB_result.Text = result.ToString();
         }
 
